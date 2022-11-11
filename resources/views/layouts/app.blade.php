@@ -15,6 +15,26 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+
+
+
+
+    <style>
+
+body {
+  background-image: url('https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d');
+  background-attachment:fixed;
+	background-size:cover;
+	position:relative;
+}
+
+
+
+
+
+    </style>
+
 </head>
 <body>
     <div id="app">
@@ -29,6 +49,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+
                     <ul class="navbar-nav me-auto">
 
                     </ul>

@@ -1,3 +1,32 @@
+<style>
+
+.btn.btn-primary{
+width: 100%;
+background: #12324;
+border: none;
+padding: 12px;
+margin: 16px 0;
+font-size: 16px;
+border-radius: 0.375rem;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+text-align: center;
+text-decoration: none;
+color: #fff;
+backface-visibility: hidden
+
+}
+
+.card-header{
+    background: #24303c;
+
+}}
+
+</style>
+
 @extends('layouts.app')
 
 @section('content')
@@ -5,7 +34,13 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">{{ __('Register') }}
+                
+                <image: url='https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d'>
+            
+
+            
+                </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
