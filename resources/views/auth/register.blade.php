@@ -20,10 +20,7 @@ backface-visibility: hidden
 
 }
 
-.card-header{
-    background: #24303c;
 
-}}
 
 </style>
 
@@ -34,23 +31,17 @@ backface-visibility: hidden
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}
-                
-                <image: url='https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d'>
-            
-
-            
-                </div>
+                <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Name') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-end color-white">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input class="form-control" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -64,7 +55,7 @@ backface-visibility: hidden
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                <input class="form-control" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
