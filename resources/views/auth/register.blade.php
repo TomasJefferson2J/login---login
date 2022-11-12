@@ -38,7 +38,7 @@ backface-visibility: hidden
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end color-white">{{ __('Name') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-end color-white">{{ __('') }}</label>
 
                             <div class="col-md-6">
                                 <input class="form-control" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -52,7 +52,7 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
                                 <input class="form-control" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" name="email" value="{{ old('email') }}" required autocomplete="email">
@@ -66,10 +66,10 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input class="form-control" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña" required autocomplete="new-password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -80,10 +80,10 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            <input class="form-control" type="password" name="correo" id="correo" placeholder="Confirme su Contraseña" required autocomplete="new-password">
                             </div>
                         </div>
 
