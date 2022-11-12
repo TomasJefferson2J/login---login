@@ -38,7 +38,7 @@ backface-visibility: hidden
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end color-white">{{ __('') }}</label>
+                            <label for="name" class="col-md-3 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
                                 <input class="form-control" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -52,7 +52,7 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('') }}</label>
+                            <label for="email" class="col-md-3 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
                                 <input class="form-control" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" name="email" value="{{ old('email') }}" required autocomplete="email">
@@ -66,7 +66,7 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('') }}</label>
+                            <label for="password" class="col-md-3 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
                                 <input class="form-control" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña" required autocomplete="new-password">
@@ -80,7 +80,7 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('') }}</label>
+                            <label for="password-confirm" class="col-md-3 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
                             <input class="form-control" type="password" name="correo" id="correo" placeholder="Confirme su Contraseña" required autocomplete="new-password">
@@ -88,7 +88,7 @@ backface-visibility: hidden
                         </div>
 
                         <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-6 offset-md-3">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
